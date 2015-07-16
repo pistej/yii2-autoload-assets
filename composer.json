@@ -1,0 +1,21 @@
+{
+    "name": "pistej/yii2-autoload-assets",
+    "description": "Autoload assets on pjax page",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","widget","autoload","assets",""],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pistej",
+            "email": "pistej2@gmial.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pistej\\autoloadssets\\": ""
+        }
+    }
+}
